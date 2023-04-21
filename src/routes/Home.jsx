@@ -8,7 +8,7 @@ export default function Home() {
     <main id="main">   
       <div className="box">
         <div className="left">
-          <img className="profile" src="src/img/profile.jpeg" alt="myProfilePic" width="500px"></img>
+          <img className="profile" src="src/assets/img/profile.jpeg" alt="myProfilePic" width="500px"></img>
         </div>
         <div className="right">
           <h1>Welcome to My Website!</h1>
@@ -38,15 +38,15 @@ export default function Home() {
 
           <div id="medias">
             <div className="media">
-              <a href="https://www.linkedin.com/in/vita-cheung/"> <img className="icon" src="/src/img/linkedin.png" width="50px" alt="linkedin icon"/> </a>
+              <a href="https://www.linkedin.com/in/vita-cheung/"> <img className="icon" src="/src/assets/img/linkedin.png" width="50px" alt="linkedin icon"/> </a>
               <p><a className="link" href="https://www.linkedin.com/in/vita-cheung/"> LinkedIn / </a></p>
             </div>
             <div className="media">
-            <a href="https://www.instagram.com/vitac_c/"> <img className="icon" src="/src/img/ig.png" width="50px" alt="Instagram icon"/> </a>
+            <a href="https://www.instagram.com/vitac_c/"> <img className="icon" src="/src/assets/img/ig.png" width="50px" alt="Instagram icon"/> </a>
             <p><a className="link" href="https://www.instagram.com/vitac_c/"> Instagram / </a></p>
           </div> 
           <div className="media">
-            <a href="https://github.com/VitaCheung"> <img className="icon" src="/src/img/github.png" width="50px" alt="Github icon"/> </a>
+            <a href="https://github.com/VitaCheung"> <img className="icon" src="/src/assets/img/github.png" width="50px" alt="Github icon"/> </a>
             <p><a className="link" href="https://github.com/VitaCheung"> Github / </a></p>
           </div>     
           </div>
