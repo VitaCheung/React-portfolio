@@ -22,7 +22,7 @@ export default function Skills() {
     return (
         <div className="box3">
             <div className="left">
-                <img className="profile" src="src/assets/img/hand.jpg" alt="myskills" width="500px"></img>
+                <img className="profile" src="/img/hand.jpg" alt="myskills" width="500px"></img>
    
             </div>
 
