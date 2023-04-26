@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       
 
-      <p id="copyright">Copyright &copy; 2023 Vita Cheung</p>
+      <p id="copyright">Copyright&copy; 2023 Vita Cheung</p>
     </main>
     
   );
