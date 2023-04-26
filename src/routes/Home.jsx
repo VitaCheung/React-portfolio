@@ -25,7 +25,7 @@ export default function Home() {
       </nav>
       <div className="box1">
         <h1 id="Projects"> My Projects</h1>
-        <p>Here are some projects I want to share from my database. Hope you enjoy browsing them!</p>
+        <p>This webpage is created with React. Here are some projects I want to share from my database. Hope you enjoy browsing them!</p>
         <Projects />
       </div>
       
