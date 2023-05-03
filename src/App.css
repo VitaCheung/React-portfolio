@@ -183,10 +183,10 @@ hr{
 @media screen and (max-width:768px){
     .left, .right{
         flex:100%;
-        padding:0;
+        padding:1em 0;
     }
     .box, .box2, .box3, .box4, .box5, .box6{
-        padding:1em 1em;
+        padding:1em 1.5em;
         width: 100%;
     }
     .box1{
