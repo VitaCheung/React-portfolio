@@ -186,7 +186,7 @@ hr{
         padding:1em;
     }
     .box, .box2, .box3, .box4, .box5, .box6{
-        padding:1em 1em;
+        padding:1em 0;
         width: 100%;
     }
     .profile{
