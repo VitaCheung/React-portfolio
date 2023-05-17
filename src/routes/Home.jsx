@@ -50,7 +50,7 @@ export default function Home() {
             <p><a className="link" href="https://github.com/VitaCheung"> Github / </a></p>
           </div>     
           </div>
-          <p>Email: ctw1207@gmail.com</p>
+          <p>Email: <a href="mailto:ctw1207@gmail.com" target="_blank">ctw1207@gmail.com</a></p>
         </div>
 
           <div className="right">   
