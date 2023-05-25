@@ -22,7 +22,9 @@ export default function Skills() {
     return (
         <div className="box3">
             <div className="left">
-                <img className="profile" src="/img/hand.jpg" alt="myskills" width="500px"></img>
+                <img className="profile" src="/img/hand.jpg" alt="myskills" width="500px" 
+                onMouseOver={e => (e.currentTarget.src = "/img/yoda.png")}
+                onMouseOut={e => (e.currentTarget.src = "/img/hand.jpg")} ></img>
    
             </div>
 
