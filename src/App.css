@@ -22,7 +22,39 @@ html {
     align-items: center;
     margin: 0;
 }
-
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+/* .container h1{
+    margin: 0;
+    position: absolute;
+} */
+#captionBox{
+    position: absolute;
+    top: 17em;
+}
+#hoverMe{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size:1em;
+    text-decoration: none;
+    background-color:rgba(135, 206, 250, 0);
+    color: white;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+#hoverMe:hover{
+    background-color:darkcyan;
+}
 body {
     margin: 0;
     max-width: 100%;
@@ -61,10 +93,11 @@ hr{
     border-radius:50%;
     box-shadow:rgb(1, 137, 137, 0.4) 5px 5px, rgb(1, 137, 137, 0.3) 10px 10px, rgb(1, 137, 137, 0.2) 15px 15px, rgb(1, 137, 137, 0.1) 20px 20px, rgb(1, 137, 137, 0.05) 25px 25px; 
 }
+
 .photo{
     width: 100%;
 }
-.Hamburger{
+.Hamburger, #main-nav2{
   padding:0 2em;
 }
 .box{
@@ -180,6 +213,9 @@ hr{
     display: block;
     padding: 0.5em 0em;
 }
+#email{
+    margin:0;
+}
 
 
 
@@ -212,6 +248,9 @@ hr{
     }
     #main-menu{
         display: none;
+    }
+    #main-nav2{
+        padding:0 25%;
     }
     .left, .right{
         flex:100%;

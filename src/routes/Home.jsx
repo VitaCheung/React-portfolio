@@ -1,18 +1,32 @@
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Experiences from "../components/Experiences";
+import React, {useState} from "react";
 
 
 export default function Home() {
+  const [src, setSrc] = useState("/img/profile.jpeg");
+  const picSrc = `${src}`;
+
   return(
     <main id="main">   
       <div className="box">
         <div className="left">
-          <img className="profile" src="/img/profile.jpeg" alt="myProfilePic" width="500px"></img>
+          <img class="profile" src={picSrc} onMouseOver={e => (e.currentTarget.src = "/img/profile2.png")}
+          onMouseOut={e => (e.currentTarget.src = "/img/profile.jpeg")} 
+          alt="myProfilePic" width="500px"></img>
         </div>
         <div className="right">
-          <h1>Welcome to My Website!</h1>
-          <p>I'm Vita! A junior full-stack web developer. I am passionate about achieving creative solutions to projects from online to offline media formats.</p>
+          <div class="container">
+            <h1>Welcome to My Website!</h1>
+            <div id="captionBox">
+              <p id="caption">I'm Vita! A full-stack web developer. I am passionate about achieving creative solutions to projects from online to offline media formats.</p>
+              <button id="hoverMe"
+                onMouseEnter={() => setSrc("/img/profile2.png")}
+                onMouseLeave={() => setSrc("/img/profile.jpeg")}>Hover over me!</button>
+            </div>
+          </div>
+          
         </div>
       </div>
       <nav id="main-menu" aria-label="Main navigation">
@@ -50,10 +64,13 @@ export default function Home() {
             <p><a className="link" href="https://github.com/VitaCheung"> Github / </a></p>
           </div>     
           </div>
-          <p>Email: <a href="mailto:ctw1207@gmail.com" target="_blank">ctw1207@gmail.com</a></p>
+          <p id="email">Email: <a href="mailto:ctw1207@gmail.com" target="_blank">ctw1207@gmail.com</a></p>
         </div>
 
-          <div className="right">   
+          <div className="right">
+          <img class="profile" src={picSrc} onMouseOver={e => (e.currentTarget.src = "/img/profile2.png")}
+          onMouseOut={e => (e.currentTarget.src = "/img/profile.jpeg")} 
+          alt="myProfilePic" width="300px"></img>   
           </div>
       </div>
       
