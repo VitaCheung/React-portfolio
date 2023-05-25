@@ -25,8 +25,7 @@ export default function Home() {
                 onMouseEnter={() => setSrc("/img/profile2.png")}
                 onMouseLeave={() => setSrc("/img/profile.jpeg")}>Hover over me!</button>
             </div>
-          </div>
-          
+          </div> 
         </div>
       </div>
       <nav id="main-menu" aria-label="Main navigation">
