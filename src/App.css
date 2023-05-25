@@ -268,6 +268,9 @@ hr{
         flex-direction: column;
         width: 100%;
     }
+    .box1 p{
+        padding: 0.5em 1.5em;
+    }
     .box5{
         flex-direction:column-reverse;
         width: 100%;
